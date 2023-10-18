@@ -1,0 +1,7 @@
+[package]
+name = "chatty"
+version = "0.1.0"
+edition = "2021"
+[dependencies]
+clap = { version = "4.4.6", features = ["derive"] }
+tokio = { version = "1.33.0", features = ["full"] }
